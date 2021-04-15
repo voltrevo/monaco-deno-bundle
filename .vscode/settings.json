@@ -5,4 +5,10 @@
   },
   "typescript.tsdk": "node_modules/typescript/lib",
   "editor.tabSize": 2,
+  "deno.enable": true,
+  "deno.lint": true,
+  "deno.unstable": true,
+  "deno.config": "./tsconfig.json",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "denoland.vscode-deno"
 }
