@@ -448,7 +448,7 @@ export function isPatternInWord(patternLow, patternPos, patternLen, wordLow, wor
     }
     return patternPos === patternLen; // pattern must be exhausted
 }
-export var FuzzyScore;
+export var FuzzyScore = {};
 (function (FuzzyScore) {
     /**
      * No matches and value `-100`

@@ -140,7 +140,7 @@ const userSettingsGeneralMap = new KeyCodeStrMap();
     define(107 /* NUMPAD_DECIMAL */, 'NumPad_Decimal');
     define(108 /* NUMPAD_DIVIDE */, 'NumPad_Divide');
 })();
-export var KeyCodeUtils;
+export var KeyCodeUtils = {};
 (function (KeyCodeUtils) {
     function toString(keyCode) {
         return uiMap.keyCodeToStr(keyCode);

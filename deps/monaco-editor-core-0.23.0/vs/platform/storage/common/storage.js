@@ -9,7 +9,7 @@ import { isUndefinedOrNull } from '../../../base/common/types';
 import { InMemoryStorageDatabase, Storage } from '../../../base/parts/storage/common/storage';
 const TARGET_KEY = '__$__targetStorageMarker';
 export const IStorageService = createDecorator('storageService');
-export var WillSaveStateReason;
+export var WillSaveStateReason = {};
 (function (WillSaveStateReason) {
     /**
      * No specific reason to save state.

@@ -166,7 +166,7 @@ class ListElementDelegate {
         return ListElementRenderer.ID;
     }
 }
-export var QuickInputListFocus;
+export var QuickInputListFocus = {};
 (function (QuickInputListFocus) {
     QuickInputListFocus[QuickInputListFocus["First"] = 1] = "First";
     QuickInputListFocus[QuickInputListFocus["Second"] = 2] = "Second";

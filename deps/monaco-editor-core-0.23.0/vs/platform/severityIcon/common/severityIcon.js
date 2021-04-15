@@ -6,7 +6,7 @@ import Severity from '../../../base/common/severity';
 import { registerThemingParticipant } from '../../theme/common/themeService';
 import { problemsErrorIconForeground, problemsInfoIconForeground, problemsWarningIconForeground } from '../../theme/common/colorRegistry';
 import { Codicon } from '../../../base/common/codicons';
-export var SeverityIcon;
+export var SeverityIcon = {};
 (function (SeverityIcon) {
     function className(severity) {
         switch (severity) {

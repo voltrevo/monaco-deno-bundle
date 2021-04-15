@@ -8,7 +8,7 @@ import * as platform from '../../../common/platform';
 import { toDisposable, Disposable, DisposableStore } from '../../../common/lifecycle';
 import { Range } from '../../../common/range';
 import { BrowserFeatures } from '../../canIUse';
-export var LayoutAnchorMode;
+export var LayoutAnchorMode = {};
 (function (LayoutAnchorMode) {
     LayoutAnchorMode[LayoutAnchorMode["AVOID"] = 0] = "AVOID";
     LayoutAnchorMode[LayoutAnchorMode["ALIGN"] = 1] = "ALIGN";

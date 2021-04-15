@@ -53,7 +53,7 @@ import { IUndoRedoService } from '../../../platform/undoRedo/common/undoRedo.js'
 import { UndoRedoService } from '../../../platform/undoRedo/common/undoRedoService.js';
 import { StandaloneQuickInputServiceImpl } from './quickInput/standaloneQuickInputServiceImpl.js';
 import { IQuickInputService } from '../../../platform/quickinput/common/quickInput.js';
-export var StaticServices;
+export var StaticServices = {};
 (function (StaticServices) {
     const _serviceCollection = new ServiceCollection();
     class LazyStaticService {

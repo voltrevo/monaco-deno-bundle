@@ -497,7 +497,7 @@ export class CursorMoveCommands {
         return result;
     }
 }
-export var CursorMove;
+export var CursorMove = {};
 (function (CursorMove) {
     const isCursorMoveArgs = function (arg) {
         if (!types.isObject(arg)) {

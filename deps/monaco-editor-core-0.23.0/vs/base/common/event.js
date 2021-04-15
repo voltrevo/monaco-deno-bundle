@@ -6,7 +6,7 @@ import { onUnexpectedError } from './errors';
 import { Disposable, combinedDisposable, DisposableStore } from './lifecycle';
 import { LinkedList } from './linkedList';
 import { StopWatch } from './stopwatch';
-export var Event;
+export var Event = {};
 (function (Event) {
     Event.None = () => Disposable.None;
     /**

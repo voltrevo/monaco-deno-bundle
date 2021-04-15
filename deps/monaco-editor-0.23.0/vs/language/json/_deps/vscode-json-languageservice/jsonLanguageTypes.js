@@ -8,7 +8,7 @@ export { TextDocument, Range, TextEdit, Color, ColorInformation, ColorPresentati
 /**
  * Error codes used by diagnostics
  */
-export var ErrorCode;
+export var ErrorCode = {};
 (function (ErrorCode) {
     ErrorCode[ErrorCode["Undefined"] = 0] = "Undefined";
     ErrorCode[ErrorCode["EnumValueMismatch"] = 1] = "EnumValueMismatch";
@@ -30,7 +30,7 @@ export var ErrorCode;
     ErrorCode[ErrorCode["CommentNotPermitted"] = 521] = "CommentNotPermitted";
     ErrorCode[ErrorCode["SchemaResolveError"] = 768] = "SchemaResolveError";
 })(ErrorCode || (ErrorCode = {}));
-export var ClientCapabilities;
+export var ClientCapabilities = {};
 (function (ClientCapabilities) {
     ClientCapabilities.LATEST = {
         textDocument: {

@@ -434,7 +434,7 @@ export class IdleValue {
 }
 //#endregion
 //#region Promises
-export var Promises;
+export var Promises = {};
 (function (Promises) {
     /**
      * A polyfill of `Promise.allSettled`: returns after all promises have

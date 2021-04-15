@@ -1,4 +1,4 @@
-export var FileKind;
+export var FileKind = {};
 (function (FileKind) {
     FileKind[FileKind["FILE"] = 0] = "FILE";
     FileKind[FileKind["FOLDER"] = 1] = "FOLDER";

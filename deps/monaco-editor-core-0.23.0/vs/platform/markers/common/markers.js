@@ -5,7 +5,7 @@
 import { createDecorator } from '../../instantiation/common/instantiation';
 import { localize } from '../../../nls';
 import Severity from '../../../base/common/severity';
-export var MarkerSeverity;
+export var MarkerSeverity = {};
 (function (MarkerSeverity) {
     MarkerSeverity[MarkerSeverity["Hint"] = 1] = "Hint";
     MarkerSeverity[MarkerSeverity["Info"] = 2] = "Info";
@@ -44,7 +44,7 @@ export var MarkerSeverity;
     }
     MarkerSeverity.toSeverity = toSeverity;
 })(MarkerSeverity || (MarkerSeverity = {}));
-export var IMarkerData;
+export var IMarkerData = {};
 (function (IMarkerData) {
     const emptyString = '';
     function makeKey(markerData) {

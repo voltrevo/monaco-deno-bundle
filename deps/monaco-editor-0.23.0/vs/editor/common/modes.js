@@ -152,7 +152,7 @@ export let completionKindFromString = (function () {
         return res;
     };
 })();
-export var SignatureHelpTriggerKind;
+export var SignatureHelpTriggerKind = {};
 (function (SignatureHelpTriggerKind) {
     SignatureHelpTriggerKind[SignatureHelpTriggerKind["Invoke"] = 1] = "Invoke";
     SignatureHelpTriggerKind[SignatureHelpTriggerKind["TriggerCharacter"] = 2] = "TriggerCharacter";
@@ -161,7 +161,7 @@ export var SignatureHelpTriggerKind;
 /**
  * A document highlight kind.
  */
-export var DocumentHighlightKind;
+export var DocumentHighlightKind = {};
 (function (DocumentHighlightKind) {
     /**
      * A textual occurrence.
@@ -188,7 +188,7 @@ export function isLocationLink(thing) {
 /**
  * @internal
  */
-export var SymbolKinds;
+export var SymbolKinds = {};
 (function (SymbolKinds) {
     const byName = new Map();
     byName.set('file', 0 /* File */);
@@ -295,7 +295,7 @@ FoldingRangeKind.Imports = new FoldingRangeKind('imports');
  * The value of the kind is 'region'.
  */
 FoldingRangeKind.Region = new FoldingRangeKind('region');
-export var InlineHintKind;
+export var InlineHintKind = {};
 (function (InlineHintKind) {
     InlineHintKind[InlineHintKind["Other"] = 0] = "Other";
     InlineHintKind[InlineHintKind["Type"] = 1] = "Type";

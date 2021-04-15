@@ -5,7 +5,7 @@
 import { MarkupKind } from './../vscode-languageserver-types/main.js';
 export { TextDocument } from './../vscode-languageserver-textdocument/lib/esm/main.js';
 export * from './../vscode-languageserver-types/main.js';
-export var TokenType;
+export var TokenType = {};
 (function (TokenType) {
     TokenType[TokenType["StartCommentTag"] = 0] = "StartCommentTag";
     TokenType[TokenType["Comment"] = 1] = "Comment";
@@ -30,7 +30,7 @@ export var TokenType;
     TokenType[TokenType["Styles"] = 20] = "Styles";
     TokenType[TokenType["EOS"] = 21] = "EOS";
 })(TokenType || (TokenType = {}));
-export var ScannerState;
+export var ScannerState = {};
 (function (ScannerState) {
     ScannerState[ScannerState["WithinContent"] = 0] = "WithinContent";
     ScannerState[ScannerState["AfterOpeningStartTag"] = 1] = "AfterOpeningStartTag";
@@ -44,7 +44,7 @@ export var ScannerState;
     ScannerState[ScannerState["AfterAttributeName"] = 9] = "AfterAttributeName";
     ScannerState[ScannerState["BeforeAttributeValue"] = 10] = "BeforeAttributeValue";
 })(ScannerState || (ScannerState = {}));
-export var ClientCapabilities;
+export var ClientCapabilities = {};
 (function (ClientCapabilities) {
     ClientCapabilities.LATEST = {
         textDocument: {
@@ -59,7 +59,7 @@ export var ClientCapabilities;
         }
     };
 })(ClientCapabilities || (ClientCapabilities = {}));
-export var FileType;
+export var FileType = {};
 (function (FileType) {
     /**
      * The file type is unknown.

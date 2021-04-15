@@ -153,7 +153,7 @@ export function asSchema(schema) {
     }
     return schema;
 }
-export var EnumMatch;
+export var EnumMatch = {};
 (function (EnumMatch) {
     EnumMatch[EnumMatch["Key"] = 0] = "Key";
     EnumMatch[EnumMatch["Enum"] = 1] = "Enum";

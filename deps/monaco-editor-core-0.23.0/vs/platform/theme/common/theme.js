@@ -5,7 +5,7 @@
 /**
  * Color scheme used by the OS and by color themes.
  */
-export var ColorScheme;
+export var ColorScheme = {};
 (function (ColorScheme) {
     ColorScheme["DARK"] = "dark";
     ColorScheme["LIGHT"] = "light";

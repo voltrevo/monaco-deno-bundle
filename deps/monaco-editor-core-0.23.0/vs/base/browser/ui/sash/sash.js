@@ -13,7 +13,7 @@ import { getElementsByTagName, EventHelper, createStyleSheet, addDisposableListe
 import { domEvent } from '../../event';
 import { Delayer } from '../../../common/async';
 let DEBUG = false;
-export var OrthogonalEdge;
+export var OrthogonalEdge = {};
 (function (OrthogonalEdge) {
     OrthogonalEdge["North"] = "north";
     OrthogonalEdge["South"] = "south";

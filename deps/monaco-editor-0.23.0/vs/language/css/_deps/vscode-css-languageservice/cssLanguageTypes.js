@@ -6,7 +6,7 @@
 import { Range, Position, MarkupContent, MarkupKind, Color, ColorInformation, ColorPresentation, FoldingRange, FoldingRangeKind, SelectionRange, Diagnostic, DiagnosticSeverity, CompletionItem, CompletionItemKind, CompletionList, CompletionItemTag, InsertTextFormat, SymbolInformation, SymbolKind, DocumentSymbol, Location, Hover, MarkedString, CodeActionContext, Command, CodeAction, DocumentHighlight, DocumentLink, WorkspaceEdit, TextEdit, CodeActionKind, TextDocumentEdit, VersionedTextDocumentIdentifier, DocumentHighlightKind } from './../vscode-languageserver-types/main.js';
 import { TextDocument } from './../vscode-languageserver-textdocument/lib/esm/main.js';
 export { TextDocument, Range, Position, MarkupContent, MarkupKind, Color, ColorInformation, ColorPresentation, FoldingRange, FoldingRangeKind, SelectionRange, Diagnostic, DiagnosticSeverity, CompletionItem, CompletionItemKind, CompletionList, CompletionItemTag, InsertTextFormat, SymbolInformation, SymbolKind, DocumentSymbol, Location, Hover, MarkedString, CodeActionContext, Command, CodeAction, DocumentHighlight, DocumentLink, WorkspaceEdit, TextEdit, CodeActionKind, TextDocumentEdit, VersionedTextDocumentIdentifier, DocumentHighlightKind };
-export var ClientCapabilities;
+export var ClientCapabilities = {};
 (function (ClientCapabilities) {
     ClientCapabilities.LATEST = {
         textDocument: {
@@ -21,7 +21,7 @@ export var ClientCapabilities;
         }
     };
 })(ClientCapabilities || (ClientCapabilities = {}));
-export var FileType;
+export var FileType = {};
 (function (FileType) {
     /**
      * The file type is unknown.

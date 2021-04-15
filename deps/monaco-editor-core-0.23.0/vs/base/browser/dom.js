@@ -716,7 +716,7 @@ export function reset(parent, ...children) {
     append(parent, ...children);
 }
 const SELECTOR_REGEX = /([\w\-]+)?(#([\w\-]+))?((\.([\w\-]+))*)/;
-export var Namespace;
+export var Namespace = {};
 (function (Namespace) {
     Namespace["HTML"] = "http://www.w3.org/1999/xhtml";
     Namespace["SVG"] = "http://www.w3.org/2000/svg";

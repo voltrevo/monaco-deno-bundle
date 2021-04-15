@@ -23,7 +23,7 @@ import { trim } from "../utils/strings.js";
 /// Nodes for the css 2.1 specification. See for reference:
 /// http://www.w3.org/TR/CSS21/grammar.html#grammar
 /// </summary>
-export var NodeType;
+export var NodeType = {};
 (function (NodeType) {
     NodeType[NodeType["Undefined"] = 0] = "Undefined";
     NodeType[NodeType["Identifier"] = 1] = "Identifier";
@@ -105,7 +105,7 @@ export var NodeType;
     NodeType[NodeType["ForwardVisibility"] = 77] = "ForwardVisibility";
     NodeType[NodeType["Module"] = 78] = "Module";
 })(NodeType || (NodeType = {}));
-export var ReferenceType;
+export var ReferenceType = {};
 (function (ReferenceType) {
     ReferenceType[ReferenceType["Mixin"] = 0] = "Mixin";
     ReferenceType[ReferenceType["Rule"] = 1] = "Rule";
@@ -1725,7 +1725,7 @@ var Module = /** @class */ (function (_super) {
     return Module;
 }(Node));
 export { Module };
-export var Level;
+export var Level = {};
 (function (Level) {
     Level[Level["Ignore"] = 1] = "Ignore";
     Level[Level["Warning"] = 2] = "Warning";

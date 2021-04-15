@@ -4,7 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 import { URI } from './uri';
 import * as platform from './platform';
-export var Schemas;
+export var Schemas = {};
 (function (Schemas) {
     /**
      * A schema that is used for models that exist in memory

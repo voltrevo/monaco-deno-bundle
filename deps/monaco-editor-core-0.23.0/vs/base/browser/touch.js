@@ -12,7 +12,7 @@ import * as arrays from '../common/arrays';
 import { Disposable } from '../common/lifecycle';
 import * as DomUtils from './dom';
 import { memoize } from '../common/decorators';
-export var EventType;
+export var EventType = {};
 (function (EventType) {
     EventType.Tap = '-monaco-gesturetap';
     EventType.Change = '-monaco-gesturechange';

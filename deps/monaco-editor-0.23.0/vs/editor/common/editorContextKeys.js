@@ -4,7 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 import * as nls from '../../nls.js';
 import { RawContextKey } from '../../platform/contextkey/common/contextkey.js';
-export var EditorContextKeys;
+export var EditorContextKeys = {};
 (function (EditorContextKeys) {
     EditorContextKeys.editorSimpleInput = new RawContextKey('editorSimpleInput', false, true);
     /**

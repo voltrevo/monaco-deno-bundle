@@ -3,12 +3,12 @@
  * Licensed under the MIT License. See License.txt in the project root for license information.
  * ------------------------------------------------------------------------------------------ */
 'use strict';
-export var integer;
+export var integer = {};
 (function (integer) {
     integer.MIN_VALUE = -2147483648;
     integer.MAX_VALUE = 2147483647;
 })(integer || (integer = {}));
-export var uinteger;
+export var uinteger = {};
 (function (uinteger) {
     uinteger.MIN_VALUE = 0;
     uinteger.MAX_VALUE = 2147483647;
@@ -17,7 +17,7 @@ export var uinteger;
  * The Position namespace provides helper functions to work with
  * [Position](#Position) literals.
  */
-export var Position;
+export var Position = {};
 (function (Position) {
     /**
      * Creates a new Position literal from the given line and character.
@@ -47,7 +47,7 @@ export var Position;
  * The Range namespace provides helper functions to work with
  * [Range](#Range) literals.
  */
-export var Range;
+export var Range = {};
 (function (Range) {
     function create(one, two, three, four) {
         if (Is.uinteger(one) && Is.uinteger(two) && Is.uinteger(three) && Is.uinteger(four)) {
@@ -74,7 +74,7 @@ export var Range;
  * The Location namespace provides helper functions to work with
  * [Location](#Location) literals.
  */
-export var Location;
+export var Location = {};
 (function (Location) {
     /**
      * Creates a Location literal.
@@ -98,7 +98,7 @@ export var Location;
  * The LocationLink namespace provides helper functions to work with
  * [LocationLink](#LocationLink) literals.
  */
-export var LocationLink;
+export var LocationLink = {};
 (function (LocationLink) {
     /**
      * Creates a LocationLink literal.
@@ -126,7 +126,7 @@ export var LocationLink;
  * The Color namespace provides helper functions to work with
  * [Color](#Color) literals.
  */
-export var Color;
+export var Color = {};
 (function (Color) {
     /**
      * Creates a new Color literal.
@@ -156,7 +156,7 @@ export var Color;
  * The ColorInformation namespace provides helper functions to work with
  * [ColorInformation](#ColorInformation) literals.
  */
-export var ColorInformation;
+export var ColorInformation = {};
 (function (ColorInformation) {
     /**
      * Creates a new ColorInformation literal.
@@ -181,7 +181,7 @@ export var ColorInformation;
  * The Color namespace provides helper functions to work with
  * [ColorPresentation](#ColorPresentation) literals.
  */
-export var ColorPresentation;
+export var ColorPresentation = {};
 (function (ColorPresentation) {
     /**
      * Creates a new ColorInformation literal.
@@ -208,7 +208,7 @@ export var ColorPresentation;
 /**
  * Enum of known range kinds
  */
-export var FoldingRangeKind;
+export var FoldingRangeKind = {};
 (function (FoldingRangeKind) {
     /**
      * Folding range for a comment
@@ -227,7 +227,7 @@ export var FoldingRangeKind;
  * The folding range namespace provides helper functions to work with
  * [FoldingRange](#FoldingRange) literals.
  */
-export var FoldingRange;
+export var FoldingRange = {};
 (function (FoldingRange) {
     /**
      * Creates a new FoldingRange literal.
@@ -265,7 +265,7 @@ export var FoldingRange;
  * The DiagnosticRelatedInformation namespace provides helper functions to work with
  * [DiagnosticRelatedInformation](#DiagnosticRelatedInformation) literals.
  */
-export var DiagnosticRelatedInformation;
+export var DiagnosticRelatedInformation = {};
 (function (DiagnosticRelatedInformation) {
     /**
      * Creates a new DiagnosticRelatedInformation literal.
@@ -289,7 +289,7 @@ export var DiagnosticRelatedInformation;
 /**
  * The diagnostic's severity.
  */
-export var DiagnosticSeverity;
+export var DiagnosticSeverity = {};
 (function (DiagnosticSeverity) {
     /**
      * Reports an error.
@@ -313,7 +313,7 @@ export var DiagnosticSeverity;
  *
  * @since 3.15.0
  */
-export var DiagnosticTag;
+export var DiagnosticTag = {};
 (function (DiagnosticTag) {
     /**
      * Unused or unnecessary code.
@@ -334,7 +334,7 @@ export var DiagnosticTag;
  *
  * @since 3.16.0
  */
-export var CodeDescription;
+export var CodeDescription = {};
 (function (CodeDescription) {
     function is(value) {
         var candidate = value;
@@ -346,7 +346,7 @@ export var CodeDescription;
  * The Diagnostic namespace provides helper functions to work with
  * [Diagnostic](#Diagnostic) literals.
  */
-export var Diagnostic;
+export var Diagnostic = {};
 (function (Diagnostic) {
     /**
      * Creates a new Diagnostic literal.
@@ -389,7 +389,7 @@ export var Diagnostic;
  * The Command namespace provides helper functions to work with
  * [Command](#Command) literals.
  */
-export var Command;
+export var Command = {};
 (function (Command) {
     /**
      * Creates a new Command literal.
@@ -419,7 +419,7 @@ export var Command;
  * The TextEdit namespace provides helper function to create replace,
  * insert and delete edits more easily.
  */
-export var TextEdit;
+export var TextEdit = {};
 (function (TextEdit) {
     /**
      * Creates a replace text edit.
@@ -455,7 +455,7 @@ export var TextEdit;
     }
     TextEdit.is = is;
 })(TextEdit || (TextEdit = {}));
-export var ChangeAnnotation;
+export var ChangeAnnotation = {};
 (function (ChangeAnnotation) {
     function create(label, needsConfirmation, description) {
         var result = { label: label };
@@ -476,7 +476,7 @@ export var ChangeAnnotation;
     }
     ChangeAnnotation.is = is;
 })(ChangeAnnotation || (ChangeAnnotation = {}));
-export var ChangeAnnotationIdentifier;
+export var ChangeAnnotationIdentifier = {};
 (function (ChangeAnnotationIdentifier) {
     function is(value) {
         var candidate = value;
@@ -484,7 +484,7 @@ export var ChangeAnnotationIdentifier;
     }
     ChangeAnnotationIdentifier.is = is;
 })(ChangeAnnotationIdentifier || (ChangeAnnotationIdentifier = {}));
-export var AnnotatedTextEdit;
+export var AnnotatedTextEdit = {};
 (function (AnnotatedTextEdit) {
     /**
      * Creates an annotated replace text edit.
@@ -528,7 +528,7 @@ export var AnnotatedTextEdit;
  * The TextDocumentEdit namespace provides helper function to create
  * an edit that manipulates a text document.
  */
-export var TextDocumentEdit;
+export var TextDocumentEdit = {};
 (function (TextDocumentEdit) {
     /**
      * Creates a new `TextDocumentEdit`
@@ -545,7 +545,7 @@ export var TextDocumentEdit;
     }
     TextDocumentEdit.is = is;
 })(TextDocumentEdit || (TextDocumentEdit = {}));
-export var CreateFile;
+export var CreateFile = {};
 (function (CreateFile) {
     function create(uri, options, annotation) {
         var result = {
@@ -568,7 +568,7 @@ export var CreateFile;
     }
     CreateFile.is = is;
 })(CreateFile || (CreateFile = {}));
-export var RenameFile;
+export var RenameFile = {};
 (function (RenameFile) {
     function create(oldUri, newUri, options, annotation) {
         var result = {
@@ -592,7 +592,7 @@ export var RenameFile;
     }
     RenameFile.is = is;
 })(RenameFile || (RenameFile = {}));
-export var DeleteFile;
+export var DeleteFile = {};
 (function (DeleteFile) {
     function create(uri, options, annotation) {
         var result = {
@@ -615,7 +615,7 @@ export var DeleteFile;
     }
     DeleteFile.is = is;
 })(DeleteFile || (DeleteFile = {}));
-export var WorkspaceEdit;
+export var WorkspaceEdit = {};
 (function (WorkspaceEdit) {
     function is(value) {
         var candidate = value;
@@ -939,7 +939,7 @@ export { WorkspaceChange };
  * The TextDocumentIdentifier namespace provides helper functions to work with
  * [TextDocumentIdentifier](#TextDocumentIdentifier) literals.
  */
-export var TextDocumentIdentifier;
+export var TextDocumentIdentifier = {};
 (function (TextDocumentIdentifier) {
     /**
      * Creates a new TextDocumentIdentifier literal.
@@ -962,7 +962,7 @@ export var TextDocumentIdentifier;
  * The VersionedTextDocumentIdentifier namespace provides helper functions to work with
  * [VersionedTextDocumentIdentifier](#VersionedTextDocumentIdentifier) literals.
  */
-export var VersionedTextDocumentIdentifier;
+export var VersionedTextDocumentIdentifier = {};
 (function (VersionedTextDocumentIdentifier) {
     /**
      * Creates a new VersionedTextDocumentIdentifier literal.
@@ -986,7 +986,7 @@ export var VersionedTextDocumentIdentifier;
  * The OptionalVersionedTextDocumentIdentifier namespace provides helper functions to work with
  * [OptionalVersionedTextDocumentIdentifier](#OptionalVersionedTextDocumentIdentifier) literals.
  */
-export var OptionalVersionedTextDocumentIdentifier;
+export var OptionalVersionedTextDocumentIdentifier = {};
 (function (OptionalVersionedTextDocumentIdentifier) {
     /**
      * Creates a new OptionalVersionedTextDocumentIdentifier literal.
@@ -1010,7 +1010,7 @@ export var OptionalVersionedTextDocumentIdentifier;
  * The TextDocumentItem namespace provides helper functions to work with
  * [TextDocumentItem](#TextDocumentItem) literals.
  */
-export var TextDocumentItem;
+export var TextDocumentItem = {};
 (function (TextDocumentItem) {
     /**
      * Creates a new TextDocumentItem literal.
@@ -1039,7 +1039,7 @@ export var TextDocumentItem;
  * Please note that `MarkupKinds` must not start with a `$`. This kinds
  * are reserved for internal usage.
  */
-export var MarkupKind;
+export var MarkupKind = {};
 (function (MarkupKind) {
     /**
      * Plain text is supported as a content format
@@ -1060,7 +1060,7 @@ export var MarkupKind;
     }
     MarkupKind.is = is;
 })(MarkupKind || (MarkupKind = {}));
-export var MarkupContent;
+export var MarkupContent = {};
 (function (MarkupContent) {
     /**
      * Checks whether the given value conforms to the [MarkupContent](#MarkupContent) interface.
@@ -1074,7 +1074,7 @@ export var MarkupContent;
 /**
  * The kind of a completion entry.
  */
-export var CompletionItemKind;
+export var CompletionItemKind = {};
 (function (CompletionItemKind) {
     CompletionItemKind.Text = 1;
     CompletionItemKind.Method = 2;
@@ -1106,7 +1106,7 @@ export var CompletionItemKind;
  * Defines whether the insert text in a completion item should be interpreted as
  * plain text or a snippet.
  */
-export var InsertTextFormat;
+export var InsertTextFormat = {};
 (function (InsertTextFormat) {
     /**
      * The primary text to be inserted is treated as a plain string.
@@ -1130,7 +1130,7 @@ export var InsertTextFormat;
  *
  * @since 3.15.0
  */
-export var CompletionItemTag;
+export var CompletionItemTag = {};
 (function (CompletionItemTag) {
     /**
      * Render a completion as obsolete, usually using a strike-out.
@@ -1142,7 +1142,7 @@ export var CompletionItemTag;
  *
  * @since 3.16.0
  */
-export var InsertReplaceEdit;
+export var InsertReplaceEdit = {};
 (function (InsertReplaceEdit) {
     /**
      * Creates a new insert / replace edit
@@ -1166,7 +1166,7 @@ export var InsertReplaceEdit;
  *
  * @since 3.16.0
  */
-export var InsertTextMode;
+export var InsertTextMode = {};
 (function (InsertTextMode) {
     /**
      * The insertion or replace strings is taken as it is. If the
@@ -1191,7 +1191,7 @@ export var InsertTextMode;
  * The CompletionItem namespace provides functions to deal with
  * completion items.
  */
-export var CompletionItem;
+export var CompletionItem = {};
 (function (CompletionItem) {
     /**
      * Create a completion item and seed it with a label.
@@ -1206,7 +1206,7 @@ export var CompletionItem;
  * The CompletionList namespace provides functions to deal with
  * completion lists.
  */
-export var CompletionList;
+export var CompletionList = {};
 (function (CompletionList) {
     /**
      * Creates a new completion list.
@@ -1219,7 +1219,7 @@ export var CompletionList;
     }
     CompletionList.create = create;
 })(CompletionList || (CompletionList = {}));
-export var MarkedString;
+export var MarkedString = {};
 (function (MarkedString) {
     /**
      * Creates a marked string from plain text.
@@ -1239,7 +1239,7 @@ export var MarkedString;
     }
     MarkedString.is = is;
 })(MarkedString || (MarkedString = {}));
-export var Hover;
+export var Hover = {};
 (function (Hover) {
     /**
      * Checks whether the given value conforms to the [Hover](#Hover) interface.
@@ -1256,7 +1256,7 @@ export var Hover;
  * The ParameterInformation namespace provides helper functions to work with
  * [ParameterInformation](#ParameterInformation) literals.
  */
-export var ParameterInformation;
+export var ParameterInformation = {};
 (function (ParameterInformation) {
     /**
      * Creates a new parameter information literal.
@@ -1273,7 +1273,7 @@ export var ParameterInformation;
  * The SignatureInformation namespace provides helper functions to work with
  * [SignatureInformation](#SignatureInformation) literals.
  */
-export var SignatureInformation;
+export var SignatureInformation = {};
 (function (SignatureInformation) {
     function create(label, documentation) {
         var parameters = [];
@@ -1297,7 +1297,7 @@ export var SignatureInformation;
 /**
  * A document highlight kind.
  */
-export var DocumentHighlightKind;
+export var DocumentHighlightKind = {};
 (function (DocumentHighlightKind) {
     /**
      * A textual occurrence.
@@ -1316,7 +1316,7 @@ export var DocumentHighlightKind;
  * DocumentHighlight namespace to provide helper functions to work with
  * [DocumentHighlight](#DocumentHighlight) literals.
  */
-export var DocumentHighlight;
+export var DocumentHighlight = {};
 (function (DocumentHighlight) {
     /**
      * Create a DocumentHighlight object.
@@ -1334,7 +1334,7 @@ export var DocumentHighlight;
 /**
  * A symbol kind.
  */
-export var SymbolKind;
+export var SymbolKind = {};
 (function (SymbolKind) {
     SymbolKind.File = 1;
     SymbolKind.Module = 2;
@@ -1367,14 +1367,14 @@ export var SymbolKind;
  * Symbol tags are extra annotations that tweak the rendering of a symbol.
  * @since 3.16
  */
-export var SymbolTag;
+export var SymbolTag = {};
 (function (SymbolTag) {
     /**
      * Render a symbol as obsolete, usually using a strike-out.
      */
     SymbolTag.Deprecated = 1;
 })(SymbolTag || (SymbolTag = {}));
-export var SymbolInformation;
+export var SymbolInformation = {};
 (function (SymbolInformation) {
     /**
      * Creates a new symbol information literal.
@@ -1398,7 +1398,7 @@ export var SymbolInformation;
     }
     SymbolInformation.create = create;
 })(SymbolInformation || (SymbolInformation = {}));
-export var DocumentSymbol;
+export var DocumentSymbol = {};
 (function (DocumentSymbol) {
     /**
      * Creates a new symbol information literal.
@@ -1442,7 +1442,7 @@ export var DocumentSymbol;
 /**
  * A set of predefined code action kinds
  */
-export var CodeActionKind;
+export var CodeActionKind = {};
 (function (CodeActionKind) {
     /**
      * Empty kind.
@@ -1516,7 +1516,7 @@ export var CodeActionKind;
  * The CodeActionContext namespace provides helper functions to work with
  * [CodeActionContext](#CodeActionContext) literals.
  */
-export var CodeActionContext;
+export var CodeActionContext = {};
 (function (CodeActionContext) {
     /**
      * Creates a new CodeActionContext literal.
@@ -1538,7 +1538,7 @@ export var CodeActionContext;
     }
     CodeActionContext.is = is;
 })(CodeActionContext || (CodeActionContext = {}));
-export var CodeAction;
+export var CodeAction = {};
 (function (CodeAction) {
     function create(title, kindOrCommandOrEdit, kind) {
         var result = { title: title };
@@ -1575,7 +1575,7 @@ export var CodeAction;
  * The CodeLens namespace provides helper functions to work with
  * [CodeLens](#CodeLens) literals.
  */
-export var CodeLens;
+export var CodeLens = {};
 (function (CodeLens) {
     /**
      * Creates a new CodeLens literal.
@@ -1601,7 +1601,7 @@ export var CodeLens;
  * The FormattingOptions namespace provides helper functions to work with
  * [FormattingOptions](#FormattingOptions) literals.
  */
-export var FormattingOptions;
+export var FormattingOptions = {};
 (function (FormattingOptions) {
     /**
      * Creates a new FormattingOptions literal.
@@ -1623,7 +1623,7 @@ export var FormattingOptions;
  * The DocumentLink namespace provides helper functions to work with
  * [DocumentLink](#DocumentLink) literals.
  */
-export var DocumentLink;
+export var DocumentLink = {};
 (function (DocumentLink) {
     /**
      * Creates a new DocumentLink literal.
@@ -1645,7 +1645,7 @@ export var DocumentLink;
  * The SelectionRange namespace provides helper function to work with
  * SelectionRange literals.
  */
-export var SelectionRange;
+export var SelectionRange = {};
 (function (SelectionRange) {
     /**
      * Creates a new SelectionRange
@@ -1666,7 +1666,7 @@ export var EOL = ['\n', '\r\n', '\r'];
 /**
  * @deprecated Use the text document from the new vscode-languageserver-textdocument package.
  */
-export var TextDocument;
+export var TextDocument = {};
 (function (TextDocument) {
     /**
      * Creates a new ITextDocument literal from the given uri and content.

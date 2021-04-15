@@ -123,7 +123,7 @@ class CodeActionOracle extends Disposable {
         return e;
     }
 }
-export var CodeActionsState;
+export var CodeActionsState = {};
 (function (CodeActionsState) {
     CodeActionsState.Empty = { type: 0 /* Empty */ };
     class Triggered {

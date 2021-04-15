@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 import * as nls from '../../nls';
-export var AccessibilityHelpNLS;
+export var AccessibilityHelpNLS = {};
 (function (AccessibilityHelpNLS) {
     AccessibilityHelpNLS.noSelection = nls.localize("noSelection", "No selection");
     AccessibilityHelpNLS.singleSelectionRange = nls.localize("singleSelectionRange", "Line {0}, Column {1} ({2} selected)");
@@ -29,38 +29,38 @@ export var AccessibilityHelpNLS;
     AccessibilityHelpNLS.outroMsg = nls.localize("outroMsg", "You can dismiss this tooltip and return to the editor by pressing Escape or Shift+Escape.");
     AccessibilityHelpNLS.showAccessibilityHelpAction = nls.localize("showAccessibilityHelpAction", "Show Accessibility Help");
 })(AccessibilityHelpNLS || (AccessibilityHelpNLS = {}));
-export var InspectTokensNLS;
+export var InspectTokensNLS = {};
 (function (InspectTokensNLS) {
     InspectTokensNLS.inspectTokensAction = nls.localize('inspectTokens', "Developer: Inspect Tokens");
 })(InspectTokensNLS || (InspectTokensNLS = {}));
-export var GoToLineNLS;
+export var GoToLineNLS = {};
 (function (GoToLineNLS) {
     GoToLineNLS.gotoLineActionLabel = nls.localize('gotoLineActionLabel', "Go to Line/Column...");
 })(GoToLineNLS || (GoToLineNLS = {}));
-export var QuickHelpNLS;
+export var QuickHelpNLS = {};
 (function (QuickHelpNLS) {
     QuickHelpNLS.helpQuickAccessActionLabel = nls.localize('helpQuickAccess', "Show all Quick Access Providers");
 })(QuickHelpNLS || (QuickHelpNLS = {}));
-export var QuickCommandNLS;
+export var QuickCommandNLS = {};
 (function (QuickCommandNLS) {
     QuickCommandNLS.quickCommandActionLabel = nls.localize('quickCommandActionLabel', "Command Palette");
     QuickCommandNLS.quickCommandHelp = nls.localize('quickCommandActionHelp', "Show And Run Commands");
 })(QuickCommandNLS || (QuickCommandNLS = {}));
-export var QuickOutlineNLS;
+export var QuickOutlineNLS = {};
 (function (QuickOutlineNLS) {
     QuickOutlineNLS.quickOutlineActionLabel = nls.localize('quickOutlineActionLabel', "Go to Symbol...");
     QuickOutlineNLS.quickOutlineByCategoryActionLabel = nls.localize('quickOutlineByCategoryActionLabel', "Go to Symbol by Category...");
 })(QuickOutlineNLS || (QuickOutlineNLS = {}));
-export var StandaloneCodeEditorNLS;
+export var StandaloneCodeEditorNLS = {};
 (function (StandaloneCodeEditorNLS) {
     StandaloneCodeEditorNLS.editorViewAccessibleLabel = nls.localize('editorViewAccessibleLabel', "Editor content");
     StandaloneCodeEditorNLS.accessibilityHelpMessage = nls.localize('accessibilityHelpMessage', "Press Alt+F1 for Accessibility Options.");
 })(StandaloneCodeEditorNLS || (StandaloneCodeEditorNLS = {}));
-export var ToggleHighContrastNLS;
+export var ToggleHighContrastNLS = {};
 (function (ToggleHighContrastNLS) {
     ToggleHighContrastNLS.toggleHighContrast = nls.localize('toggleHighContrast', "Toggle High Contrast Theme");
 })(ToggleHighContrastNLS || (ToggleHighContrastNLS = {}));
-export var SimpleServicesNLS;
+export var SimpleServicesNLS = {};
 (function (SimpleServicesNLS) {
     SimpleServicesNLS.bulkEditServiceSummary = nls.localize('bulkEditServiceSummary', "Made {0} edits in {1} files");
 })(SimpleServicesNLS || (SimpleServicesNLS = {}));

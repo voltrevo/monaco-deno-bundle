@@ -12,7 +12,7 @@ import * as strings from '../../../base/common/strings';
 import { TextAreaState, _debugComposition } from './textAreaState';
 import { Position } from '../../common/core/position';
 import { Selection } from '../../common/core/selection';
-export var TextAreaSyntethicEvents;
+export var TextAreaSyntethicEvents = {};
 (function (TextAreaSyntethicEvents) {
     TextAreaSyntethicEvents.Tap = '-monaco-textarea-synthetic-tap';
 })(TextAreaSyntethicEvents || (TextAreaSyntethicEvents = {}));

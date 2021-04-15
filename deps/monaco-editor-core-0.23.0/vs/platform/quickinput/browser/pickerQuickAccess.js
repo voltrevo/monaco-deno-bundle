@@ -14,7 +14,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 import { CancellationTokenSource } from '../../../base/common/cancellation';
 import { DisposableStore, Disposable, MutableDisposable } from '../../../base/common/lifecycle';
 import { timeout } from '../../../base/common/async';
-export var TriggerAction;
+export var TriggerAction = {};
 (function (TriggerAction) {
     /**
      * Do nothing after the button was clicked.

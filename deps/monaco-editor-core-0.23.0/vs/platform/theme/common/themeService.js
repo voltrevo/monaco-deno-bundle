@@ -9,7 +9,7 @@ import { Emitter } from '../../../base/common/event';
 import { ColorScheme } from './theme';
 import { CSSIcon } from '../../../base/common/codicons';
 export const IThemeService = createDecorator('themeService');
-export var ThemeColor;
+export var ThemeColor = {};
 (function (ThemeColor) {
     function isThemeColor(obj) {
         return obj && typeof obj === 'object' && typeof obj.id === 'string';
@@ -19,7 +19,7 @@ export var ThemeColor;
 export function themeColorFromId(id) {
     return { id };
 }
-export var ThemeIcon;
+export var ThemeIcon = {};
 (function (ThemeIcon) {
     function isThemeIcon(obj) {
         return obj && typeof obj === 'object' && typeof obj.id === 'string' && (typeof obj.color === 'undefined' || ThemeColor.isThemeColor(obj.color));

@@ -50,7 +50,7 @@ registerSingleton(IPeekViewService, class {
         this._widgets.set(editor, { widget, listener: widget.onDidClose(remove) });
     }
 });
-export var PeekContext;
+export var PeekContext = {};
 (function (PeekContext) {
     PeekContext.inPeekEditor = new RawContextKey('inReferenceSearchEditor', true);
     PeekContext.notInPeekEditor = PeekContext.inPeekEditor.toNegated();

@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-export var EditorOpenContext;
+export var EditorOpenContext = {};
 (function (EditorOpenContext) {
     /**
      * Default: the editor is opening via a programmatic call

@@ -23,7 +23,7 @@ export const MENU_MNEMONIC_REGEX = /\(&([^\s&])\)|(^|[^&])&([^\s&])/;
 export const MENU_ESCAPED_MNEMONIC_REGEX = /(&amp;)?(&amp;)([^\s&])/g;
 const menuSelectionIcon = registerCodicon('menu-selection', Codicon.check);
 const menuSubmenuIcon = registerCodicon('menu-submenu', Codicon.chevronRight);
-export var Direction;
+export var Direction = {};
 (function (Direction) {
     Direction[Direction["Right"] = 0] = "Right";
     Direction[Direction["Left"] = 1] = "Left";

@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-export var TreeMouseEventTarget;
+export var TreeMouseEventTarget = {};
 (function (TreeMouseEventTarget) {
     TreeMouseEventTarget[TreeMouseEventTarget["Unknown"] = 0] = "Unknown";
     TreeMouseEventTarget[TreeMouseEventTarget["Twistie"] = 1] = "Twistie";

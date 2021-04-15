@@ -144,7 +144,7 @@ var FullTextDocument = /** @class */ (function () {
     };
     return FullTextDocument;
 }());
-export var TextDocument;
+export var TextDocument = {};
 (function (TextDocument) {
     /**
      * Creates a new text document.

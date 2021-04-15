@@ -28,7 +28,7 @@ export class CoreEditorCommand extends EditorCommand {
         this.runCoreEditorCommand(viewModel, args || {});
     }
 }
-export var EditorScroll_;
+export var EditorScroll_ = {};
 (function (EditorScroll_) {
     const isEditorScrollArgs = function (arg) {
         if (!types.isObject(arg)) {
@@ -149,7 +149,7 @@ export var EditorScroll_;
     }
     EditorScroll_.parse = parse;
 })(EditorScroll_ || (EditorScroll_ = {}));
-export var RevealLine_;
+export var RevealLine_ = {};
 (function (RevealLine_) {
     const isRevealLineArgs = function (arg) {
         if (!types.isObject(arg)) {
@@ -242,7 +242,7 @@ class EditorOrNativeTextInputCommand {
         return true;
     }
 }
-export var CoreNavigationCommands;
+export var CoreNavigationCommands = {};
 (function (CoreNavigationCommands) {
     class BaseMoveToCommand extends CoreEditorCommand {
         constructor(opts) {
@@ -1368,7 +1368,7 @@ function registerCommand(command) {
     command.register();
     return command;
 }
-export var CoreEditingCommands;
+export var CoreEditingCommands = {};
 (function (CoreEditingCommands) {
     class CoreEditingCommand extends EditorCommand {
         runEditorCommand(accessor, editor, args) {

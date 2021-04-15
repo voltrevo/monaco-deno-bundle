@@ -94,7 +94,7 @@ var State;
     State[State["Idle"] = 0] = "Idle";
     State[State["Busy"] = 1] = "Busy";
 })(State || (State = {}));
-export var Sizing;
+export var Sizing = {};
 (function (Sizing) {
     Sizing.Distribute = { type: 'distribute' };
     function Split(index) { return { type: 'split', index }; }

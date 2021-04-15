@@ -7,7 +7,7 @@ import '../../editor/editor.api.js';
 import { typescriptVersion as tsversion } from './lib/typescriptServicesMetadata.js'; // do not import the whole typescriptServices here
 import { languages, Emitter } from './fillers/monaco-editor-core.js';
 //#region enums copied from typescript to prevent loading the entire typescriptServices ---
-export var ModuleKind;
+export var ModuleKind = {};
 (function (ModuleKind) {
     ModuleKind[ModuleKind["None"] = 0] = "None";
     ModuleKind[ModuleKind["CommonJS"] = 1] = "CommonJS";
@@ -17,7 +17,7 @@ export var ModuleKind;
     ModuleKind[ModuleKind["ES2015"] = 5] = "ES2015";
     ModuleKind[ModuleKind["ESNext"] = 99] = "ESNext";
 })(ModuleKind || (ModuleKind = {}));
-export var JsxEmit;
+export var JsxEmit = {};
 (function (JsxEmit) {
     JsxEmit[JsxEmit["None"] = 0] = "None";
     JsxEmit[JsxEmit["Preserve"] = 1] = "Preserve";
@@ -26,12 +26,12 @@ export var JsxEmit;
     JsxEmit[JsxEmit["ReactJSX"] = 4] = "ReactJSX";
     JsxEmit[JsxEmit["ReactJSXDev"] = 5] = "ReactJSXDev";
 })(JsxEmit || (JsxEmit = {}));
-export var NewLineKind;
+export var NewLineKind = {};
 (function (NewLineKind) {
     NewLineKind[NewLineKind["CarriageReturnLineFeed"] = 0] = "CarriageReturnLineFeed";
     NewLineKind[NewLineKind["LineFeed"] = 1] = "LineFeed";
 })(NewLineKind || (NewLineKind = {}));
-export var ScriptTarget;
+export var ScriptTarget = {};
 (function (ScriptTarget) {
     ScriptTarget[ScriptTarget["ES3"] = 0] = "ES3";
     ScriptTarget[ScriptTarget["ES5"] = 1] = "ES5";
@@ -45,7 +45,7 @@ export var ScriptTarget;
     ScriptTarget[ScriptTarget["JSON"] = 100] = "JSON";
     ScriptTarget[ScriptTarget["Latest"] = 99] = "Latest";
 })(ScriptTarget || (ScriptTarget = {}));
-export var ModuleResolutionKind;
+export var ModuleResolutionKind = {};
 (function (ModuleResolutionKind) {
     ModuleResolutionKind[ModuleResolutionKind["Classic"] = 1] = "Classic";
     ModuleResolutionKind[ModuleResolutionKind["NodeJs"] = 2] = "NodeJs";

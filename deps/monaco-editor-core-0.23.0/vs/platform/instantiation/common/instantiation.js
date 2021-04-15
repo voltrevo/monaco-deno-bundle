@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 // ------ internal util
-export var _util;
+export var _util = {};
 (function (_util) {
     _util.serviceIds = new Map();
     _util.DI_TARGET = '$di$target';

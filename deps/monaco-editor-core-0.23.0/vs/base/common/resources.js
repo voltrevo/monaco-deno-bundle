@@ -116,7 +116,7 @@ export const resolvePath = extUri.resolvePath.bind(extUri);
 /**
  * Data URI related helpers.
  */
-export var DataUri;
+export var DataUri = {};
 (function (DataUri) {
     DataUri.META_DATA_LABEL = 'label';
     DataUri.META_DATA_DESCRIPTION = 'description';

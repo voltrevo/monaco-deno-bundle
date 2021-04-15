@@ -163,7 +163,7 @@ export class ComposedTreeDelegate {
         }
     }
 }
-export var RenderIndentGuides;
+export var RenderIndentGuides = {};
 (function (RenderIndentGuides) {
     RenderIndentGuides["None"] = "none";
     RenderIndentGuides["OnHover"] = "onHover";

@@ -5,7 +5,7 @@
 /**
  * Describes what to do with the indentation when pressing Enter.
  */
-export var IndentAction;
+export var IndentAction = {};
 (function (IndentAction) {
     /**
      * Insert new line and copy the previous line's indentation.

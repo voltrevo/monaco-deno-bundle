@@ -335,7 +335,7 @@ function _cursorBlinkingStyleFromString(cursorBlinkingStyle) {
 /**
  * The style in which the editor's cursor should be rendered.
  */
-export var TextEditorCursorStyle;
+export var TextEditorCursorStyle = {};
 (function (TextEditorCursorStyle) {
     /**
      * As a vertical line (sitting between two characters).

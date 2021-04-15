@@ -308,7 +308,7 @@ export function registerInstantiatedEditorAction(editorAction) {
 export function registerEditorContribution(id, ctor) {
     EditorContributionRegistry.INSTANCE.registerEditorContribution(id, ctor);
 }
-export var EditorExtensionsRegistry;
+export var EditorExtensionsRegistry = {};
 (function (EditorExtensionsRegistry) {
     function getEditorCommand(commandId) {
         return EditorContributionRegistry.INSTANCE.getEditorCommand(commandId);

@@ -5,7 +5,7 @@
 import { Registry } from '../../registry/common/platform.js';
 import { coalesce } from '../../../base/common/arrays.js';
 import { toDisposable } from '../../../base/common/lifecycle.js';
-export var DefaultQuickAccessFilterValue;
+export var DefaultQuickAccessFilterValue = {};
 (function (DefaultQuickAccessFilterValue) {
     /**
      * Keep the value as it is given to quick access.

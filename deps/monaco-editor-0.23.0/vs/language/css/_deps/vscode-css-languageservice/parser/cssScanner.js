@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 'use strict';
-export var TokenType;
+export var TokenType = {};
 (function (TokenType) {
     TokenType[TokenType["Ident"] = 0] = "Ident";
     TokenType[TokenType["AtKeyword"] = 1] = "AtKeyword";

@@ -48,7 +48,7 @@ export class Codicon {
     get classNamesArray() { return ['codicon', 'codicon-' + this.id]; }
     get cssSelector() { return '.codicon.codicon-' + this.id; }
 }
-export var CSSIcon;
+export var CSSIcon = {};
 (function (CSSIcon) {
     CSSIcon.iconNameSegment = '[A-Za-z0-9]+';
     CSSIcon.iconNameExpression = '[A-Za-z0-9\\-]+';

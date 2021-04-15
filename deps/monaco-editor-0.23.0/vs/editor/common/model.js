@@ -1,7 +1,7 @@
 /**
  * Vertical Lane in the overview ruler of the editor.
  */
-export var OverviewRulerLane;
+export var OverviewRulerLane = {};
 (function (OverviewRulerLane) {
     OverviewRulerLane[OverviewRulerLane["Left"] = 1] = "Left";
     OverviewRulerLane[OverviewRulerLane["Center"] = 2] = "Center";
@@ -11,7 +11,7 @@ export var OverviewRulerLane;
 /**
  * Position in the minimap to render the decoration.
  */
-export var MinimapPosition;
+export var MinimapPosition = {};
 (function (MinimapPosition) {
     MinimapPosition[MinimapPosition["Inline"] = 1] = "Inline";
     MinimapPosition[MinimapPosition["Gutter"] = 2] = "Gutter";

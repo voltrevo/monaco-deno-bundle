@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-export var Iterable;
+export var Iterable = {};
 (function (Iterable) {
     function is(thing) {
         return thing && typeof thing === 'object' && typeof thing[Symbol.iterator] === 'function';

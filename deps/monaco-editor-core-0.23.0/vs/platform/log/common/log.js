@@ -6,7 +6,7 @@ import { createDecorator as createServiceDecorator } from '../../instantiation/c
 import { Disposable } from '../../../base/common/lifecycle';
 import { Emitter } from '../../../base/common/event';
 export const ILogService = createServiceDecorator('logService');
-export var LogLevel;
+export var LogLevel = {};
 (function (LogLevel) {
     LogLevel[LogLevel["Trace"] = 0] = "Trace";
     LogLevel[LogLevel["Debug"] = 1] = "Debug";
