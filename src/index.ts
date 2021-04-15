@@ -1,4 +1,6 @@
-export * from './monaco-editor-0.23.0/vs/editor/editor.api.js';
+import './deps/monaco-editor-0.23.0/vs/editor/editor.all.js';
+
+export * from './deps/monaco-editor-0.23.0/vs/editor/editor.api.js';
 
 (self as any).MonacoEnvironment = {
   getWorkerUrl (/* moduleId, label */) {
