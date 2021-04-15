@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import './contextview.css';
+// import './contextview.css';
 import * as DOM from '../../dom.js';
 import * as platform from '../../../common/platform.js';
 import { toDisposable, Disposable, DisposableStore } from '../../../common/lifecycle.js';

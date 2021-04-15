@@ -12,7 +12,7 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
 import '../services/markerDecorations';
-import './media/editor.css';
+// import './media/editor.css';
 import * as nls from '../../../nls';
 import * as dom from '../../../base/browser/dom';
 import { onUnexpectedError } from '../../../base/common/errors';

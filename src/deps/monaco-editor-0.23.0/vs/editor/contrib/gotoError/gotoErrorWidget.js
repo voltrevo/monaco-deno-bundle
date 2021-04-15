@@ -11,7 +11,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-import './media/gotoErrorWidget.css';
+// import './media/gotoErrorWidget.css';
 import * as nls from '../../../nls.js';
 import * as dom from '../../../base/browser/dom.js';
 import { dispose, DisposableStore } from '../../../base/common/lifecycle.js';

@@ -12,7 +12,7 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
 var _a;
-import './media/diffEditor.css';
+// import './media/diffEditor.css';
 import * as nls from '../../../nls.js';
 import * as dom from '../../../base/browser/dom.js';
 import { createFastDomNode } from '../../../base/browser/fastDomNode.js';

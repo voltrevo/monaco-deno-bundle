@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import './viewCursors.css';
+// import './viewCursors.css';
 import { createFastDomNode } from '../../../../base/browser/fastDomNode';
 import { IntervalTimer, TimeoutTimer } from '../../../../base/common/async';
 import { ViewPart } from '../../view/viewPart';

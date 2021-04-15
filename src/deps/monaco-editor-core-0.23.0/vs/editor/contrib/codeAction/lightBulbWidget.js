@@ -15,7 +15,7 @@ import * as dom from '../../../base/browser/dom';
 import { GlobalMouseMoveMonitor, standardMouseMoveMerger } from '../../../base/browser/globalMouseMoveMonitor';
 import { Emitter } from '../../../base/common/event';
 import { Disposable } from '../../../base/common/lifecycle';
-import './lightBulbWidget.css';
+// import './lightBulbWidget.css';
 import { TextModel } from '../../common/model/textModel';
 import * as nls from '../../../nls';
 import { IKeybindingService } from '../../../platform/keybinding/common/keybinding';

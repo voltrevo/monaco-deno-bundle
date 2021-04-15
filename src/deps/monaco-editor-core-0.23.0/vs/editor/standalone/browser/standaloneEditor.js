@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import './standalone-tokens.css';
+// import './standalone-tokens.css';
 import { ICodeEditorService } from '../../browser/services/codeEditorService';
 import { OpenerService } from '../../browser/services/openerService';
 import { DiffNavigator } from '../../browser/widget/diffNavigator';

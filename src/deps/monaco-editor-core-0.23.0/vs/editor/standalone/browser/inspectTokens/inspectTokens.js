@@ -11,7 +11,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-import './inspectTokens.css';
+// import './inspectTokens.css';
 import { $, append, reset } from '../../../../base/browser/dom';
 import { Color } from '../../../../base/common/color';
 import { Disposable } from '../../../../base/common/lifecycle';

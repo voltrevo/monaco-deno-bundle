@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import './actionbar.css';
+// import './actionbar.css';
 import { Disposable, dispose } from '../../../common/lifecycle';
 import { ActionRunner } from '../../../common/actions';
 import * as DOM from '../../dom';

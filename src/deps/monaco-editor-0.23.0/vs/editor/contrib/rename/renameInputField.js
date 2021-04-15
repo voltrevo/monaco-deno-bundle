@@ -11,7 +11,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-import './renameInputField.css';
+// import './renameInputField.css';
 import { DisposableStore } from '../../../base/common/lifecycle.js';
 import { Position } from '../../common/core/position.js';
 import { localize } from '../../../nls.js';

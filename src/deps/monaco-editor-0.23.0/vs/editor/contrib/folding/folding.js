@@ -11,7 +11,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-import './folding.css';
+// import './folding.css';
 import * as nls from '../../../nls.js';
 import * as types from '../../../base/common/types.js';
 import { escapeRegExpCharacters } from '../../../base/common/strings.js';

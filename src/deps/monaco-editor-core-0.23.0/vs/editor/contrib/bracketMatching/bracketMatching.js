@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import './bracketMatching.css';
+// import './bracketMatching.css';
 import * as nls from '../../../nls';
 import { RunOnceScheduler } from '../../../base/common/async';
 import { Disposable } from '../../../base/common/lifecycle';

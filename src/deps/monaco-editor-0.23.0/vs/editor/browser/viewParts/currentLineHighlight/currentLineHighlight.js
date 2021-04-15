@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import './currentLineHighlight.css';
+// import './currentLineHighlight.css';
 import { DynamicViewOverlay } from '../../view/dynamicViewOverlay.js';
 import { editorLineHighlight, editorLineHighlightBorder } from '../../../common/view/editorColorRegistry.js';
 import * as arrays from '../../../../base/common/arrays.js';

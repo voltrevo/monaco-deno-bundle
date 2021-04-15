@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import './aria.css';
+// import './aria.css';
 import { isMacintosh } from '../../../common/platform';
 import * as dom from '../../dom';
 // Use a max length since we are inserting the whole msg in the DOM and that can cause browsers to freeze for long messages #94233

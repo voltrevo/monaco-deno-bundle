@@ -17,7 +17,7 @@ import * as aria from '../../../base/browser/ui/aria/aria.js';
 import { DomScrollableElement } from '../../../base/browser/ui/scrollbar/scrollableElement.js';
 import { Event } from '../../../base/common/event.js';
 import { Disposable, DisposableStore } from '../../../base/common/lifecycle.js';
-import './parameterHints.css';
+// import './parameterHints.css';
 import { IModeService } from '../../common/services/modeService.js';
 import { MarkdownRenderer } from '../../browser/core/markdownRenderer.js';
 import { Context } from './provideSignatureHelp.js';

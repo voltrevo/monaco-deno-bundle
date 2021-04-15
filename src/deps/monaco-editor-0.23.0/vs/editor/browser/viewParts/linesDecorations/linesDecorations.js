@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import './linesDecorations.css';
+// import './linesDecorations.css';
 import { DecorationToRender, DedupOverlay } from '../glyphMargin/glyphMargin.js';
 export class LinesDecorationsOverlay extends DedupOverlay {
     constructor(context) {

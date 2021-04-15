@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import './iconlabel.css';
+// import './iconlabel.css';
 import * as dom from '../../dom';
 import { HighlightedLabel } from '../highlightedlabel/highlightedLabel';
 import { Disposable } from '../../../common/lifecycle';

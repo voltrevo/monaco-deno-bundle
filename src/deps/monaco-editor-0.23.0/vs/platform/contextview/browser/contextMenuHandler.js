@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import './contextMenuHandler.css';
+// import './contextMenuHandler.css';
 import { ActionRunner } from '../../../base/common/actions.js';
 import { combinedDisposable, DisposableStore } from '../../../base/common/lifecycle.js';
 import { Menu } from '../../../base/browser/ui/menu/menu.js';

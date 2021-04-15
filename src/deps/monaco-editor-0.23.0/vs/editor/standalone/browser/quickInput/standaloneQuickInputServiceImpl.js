@@ -11,7 +11,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-import './standaloneQuickInput.css';
+// import './standaloneQuickInput.css';
 import { registerEditorContribution } from '../../../browser/editorExtensions.js';
 import { IThemeService } from '../../../../platform/theme/common/themeService.js';
 import { CancellationToken } from '../../../../base/common/cancellation.js';

@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import './media/quickInput.css';
+// import './media/quickInput.css';
 import * as dom from '../../../browser/dom.js';
 import { InputBox } from '../../../browser/ui/inputbox/inputBox.js';
 import { Disposable } from '../../../common/lifecycle.js';

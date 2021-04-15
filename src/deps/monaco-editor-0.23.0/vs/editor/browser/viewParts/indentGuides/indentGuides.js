@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import './indentGuides.css';
+// import './indentGuides.css';
 import { DynamicViewOverlay } from '../../view/dynamicViewOverlay.js';
 import { Position } from '../../../common/core/position.js';
 import { editorActiveIndentGuides, editorIndentGuides } from '../../../common/view/editorColorRegistry.js';

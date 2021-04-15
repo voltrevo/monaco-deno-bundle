@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import './progressbar.css';
+// import './progressbar.css';
 import { Disposable } from '../../../common/lifecycle';
 import { Color } from '../../../common/color';
 import { mixin } from '../../../common/objects';

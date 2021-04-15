@@ -11,7 +11,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-import './menuEntryActionViewItem.css';
+// import './menuEntryActionViewItem.css';
 import { asCSSUrl, ModifierKeyEmitter } from '../../../base/browser/dom';
 import { domEvent } from '../../../base/browser/event';
 import { Separator, SubmenuAction } from '../../../base/common/actions';

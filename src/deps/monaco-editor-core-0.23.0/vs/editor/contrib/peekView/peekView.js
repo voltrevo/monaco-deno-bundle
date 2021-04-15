@@ -11,7 +11,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-import './media/peekViewWidget.css';
+// import './media/peekViewWidget.css';
 import * as dom from '../../../base/browser/dom';
 import { ActionBar } from '../../../base/browser/ui/actionbar/actionbar';
 import { Action } from '../../../base/common/actions';

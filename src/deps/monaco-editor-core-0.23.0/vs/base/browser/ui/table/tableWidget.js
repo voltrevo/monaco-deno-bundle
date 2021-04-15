@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import './table.css';
+// import './table.css';
 import { List } from '../list/listWidget';
 import { $, append, clearNode, createStyleSheet } from '../../dom';
 import { SplitView } from '../splitview/splitview';

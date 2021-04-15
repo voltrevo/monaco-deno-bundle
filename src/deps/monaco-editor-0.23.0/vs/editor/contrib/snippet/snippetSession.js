@@ -5,7 +5,7 @@
 import { groupBy } from '../../../base/common/arrays.js';
 import { dispose } from '../../../base/common/lifecycle.js';
 import { getLeadingWhitespace } from '../../../base/common/strings.js';
-import './snippetSession.css';
+// import './snippetSession.css';
 import { EditOperation } from '../../common/core/editOperation.js';
 import { Range } from '../../common/core/range.js';
 import { Selection } from '../../common/core/selection.js';

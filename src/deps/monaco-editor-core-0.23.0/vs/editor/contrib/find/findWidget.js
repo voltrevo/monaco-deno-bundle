@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import './findWidget.css';
+// import './findWidget.css';
 import * as nls from '../../../nls';
 import * as dom from '../../../base/browser/dom';
 import { alert as alertFn } from '../../../base/browser/ui/aria/aria';

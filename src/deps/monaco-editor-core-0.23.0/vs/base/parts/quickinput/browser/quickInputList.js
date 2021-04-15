@@ -17,7 +17,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import './media/quickInput.css';
+// import './media/quickInput.css';
 import * as dom from '../../../browser/dom';
 import { dispose } from '../../../common/lifecycle';
 import { matchesFuzzyIconAware, parseLabelWithIcons } from '../../../common/iconLabels';

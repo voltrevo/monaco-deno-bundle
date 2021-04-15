@@ -20,7 +20,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import './links.css';
+// import './links.css';
 import * as nls from '../../../nls.js';
 import * as async from '../../../base/common/async.js';
 import { CancellationToken } from '../../../base/common/cancellation.js';

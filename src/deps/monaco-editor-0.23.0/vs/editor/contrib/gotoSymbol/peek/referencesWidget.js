@@ -20,7 +20,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import './referencesWidget.css';
+// import './referencesWidget.css';
 import * as dom from '../../../../base/browser/dom.js';
 import { Color } from '../../../../base/common/color.js';
 import { Emitter, Event } from '../../../../base/common/event.js';

@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import './dropdown.css';
+// import './dropdown.css';
 import { Gesture, EventType as GestureEventType } from '../../touch';
 import { ActionRunner } from '../../../common/actions';
 import { EventHelper, EventType, append, $, addDisposableListener } from '../../dom';

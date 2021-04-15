@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import './zoneWidget.css';
+// import './zoneWidget.css';
 import * as dom from '../../../base/browser/dom';
 import { Sash } from '../../../base/browser/ui/sash/sash';
 import { Color, RGBA } from '../../../base/common/color';

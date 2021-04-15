@@ -11,7 +11,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
-import './accessibilityHelp.css';
+// import './accessibilityHelp.css';
 import * as dom from '../../../../base/browser/dom';
 import { createFastDomNode } from '../../../../base/browser/fastDomNode';
 import { renderFormattedText } from '../../../../base/browser/formattedTextRenderer';

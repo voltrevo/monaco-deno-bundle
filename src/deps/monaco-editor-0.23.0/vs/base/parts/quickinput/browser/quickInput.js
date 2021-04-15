@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import './media/quickInput.css';
+// import './media/quickInput.css';
 import { NO_KEY_MODS, ItemActivation } from '../common/quickInput.js';
 import * as dom from '../../../browser/dom.js';
 import { CancellationToken } from '../../../common/cancellation.js';

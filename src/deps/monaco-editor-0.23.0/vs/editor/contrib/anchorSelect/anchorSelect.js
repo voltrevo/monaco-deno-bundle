@@ -20,7 +20,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import './anchorSelect.css';
+// import './anchorSelect.css';
 import { EditorAction, registerEditorAction, registerEditorContribution } from '../../browser/editorExtensions.js';
 import { localize } from '../../../nls.js';
 import { EditorContextKeys } from '../../common/editorContextKeys.js';

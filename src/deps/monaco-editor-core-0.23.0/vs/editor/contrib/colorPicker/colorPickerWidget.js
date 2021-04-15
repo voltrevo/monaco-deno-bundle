@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import './colorPicker.css';
+// import './colorPicker.css';
 import { onDidChangeZoomLevel } from '../../../base/browser/browser';
 import * as dom from '../../../base/browser/dom';
 import { GlobalMouseMoveMonitor, standardMouseMoveMerger } from '../../../base/browser/globalMouseMoveMonitor';

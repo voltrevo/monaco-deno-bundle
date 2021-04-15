@@ -185,7 +185,7 @@ var CSSNavigation = /** @class */ (function () {
             }
             /**
              * In @import, it is possible to include links that do not use `url()`
-             * For example, `@import 'foo.css';`
+             * For example, `@// import 'foo.css';`
              */
             if (candidate.parent && _this.isRawStringDocumentLinkNode(candidate.parent)) {
                 var rawText = candidate.getText();

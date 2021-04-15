@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import './viewLines.css';
+// import './viewLines.css';
 import * as platform from '../../../../base/common/platform';
 import { RunOnceScheduler } from '../../../../base/common/async';
 import { Configuration } from '../../config/configuration';

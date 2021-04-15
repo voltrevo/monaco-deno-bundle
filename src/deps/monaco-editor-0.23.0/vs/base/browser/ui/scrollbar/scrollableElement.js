@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import './media/scrollbars.css';
+// import './media/scrollbars.css';
 import * as dom from '../../dom.js';
 import { createFastDomNode } from '../../fastDomNode.js';
 import { StandardWheelEvent } from '../../mouseEvent.js';

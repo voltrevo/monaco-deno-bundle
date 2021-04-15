@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import './findInput.css';
+// import './findInput.css';
 import * as nls from '../../../../nls.js';
 import * as dom from '../../dom.js';
 import { HistoryInputBox } from '../inputbox/inputBox.js';

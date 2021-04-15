@@ -3,7 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 var _a;
-import './media/diffReview.css';
+// import './media/diffReview.css';
 import * as nls from '../../../nls';
 import * as dom from '../../../base/browser/dom';
 import { createFastDomNode } from '../../../base/browser/fastDomNode';

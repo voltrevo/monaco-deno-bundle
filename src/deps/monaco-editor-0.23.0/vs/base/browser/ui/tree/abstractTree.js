@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import './media/tree.css';
+// import './media/tree.css';
 import { dispose, Disposable, toDisposable, DisposableStore } from '../../../common/lifecycle.js';
 import { List, MouseController, DefaultKeyboardNavigationDelegate, isInputElement, isMonacoEditor } from '../list/listWidget.js';
 import { append, $, getDomNodePagePosition, hasParentWithClass, createStyleSheet, clearNode } from '../../dom.js';
@@ -440,7 +440,7 @@ class TypeFilter {
         dispose(this.disposables);
     }
 }
-class TypeFilterController {
+export class TypeFilterController {
     constructor(tree, model, view, filter, keyboardNavigationDelegate) {
         this.tree = tree;
         this.view = view;

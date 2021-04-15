@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import './splitview.css';
+// import './splitview.css';
 import { toDisposable, Disposable, combinedDisposable } from '../../../common/lifecycle.js';
 import { Event, Emitter } from '../../../common/event.js';
 import * as types from '../../../common/types.js';

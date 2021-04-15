@@ -2,7 +2,7 @@
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
-import './sash.css';
+// import './sash.css';
 import { dispose, Disposable, DisposableStore, toDisposable } from '../../../common/lifecycle.js';
 import { isMacintosh } from '../../../common/platform.js';
 import * as types from '../../../common/types.js';

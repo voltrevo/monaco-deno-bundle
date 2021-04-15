@@ -5,7 +5,7 @@
 import { groupBy } from '../../../base/common/arrays';
 import { dispose } from '../../../base/common/lifecycle';
 import { getLeadingWhitespace } from '../../../base/common/strings';
-import './snippetSession.css';
+// import './snippetSession.css';
 import { EditOperation } from '../../common/core/editOperation';
 import { Range } from '../../common/core/range';
 import { Selection } from '../../common/core/selection';
