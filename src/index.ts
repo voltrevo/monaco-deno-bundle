@@ -38,8 +38,6 @@ import 'monaco-editor/esm/vs/editor/standalone/browser/iPadShowKeyboard/iPadShow
 import 'monaco-editor/esm/vs/editor/contrib/quickAccess/gotoLineQuickAccess.js';
 import 'monaco-editor/esm/vs/editor/contrib/quickAccess/gotoSymbolQuickAccess.js';
 
-import * as monaco from 'monaco-editor/esm/vs/editor/editor.api.js';
-
 export * from 'monaco-editor/esm/vs/editor/editor.api.js';
 
 // (2) Desired languages:
